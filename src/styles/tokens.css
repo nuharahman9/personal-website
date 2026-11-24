@@ -1,0 +1,39 @@
+:root {
+  --color-bg: #050203;
+  --color-text: #f5e6ea;
+  --color-ink: #050203;
+
+  --color-orange: #d66a28;
+  --color-green: #05e321;
+  --color-blue: #4682e8;
+  --color-yellow: #fbe30c;
+  --color-violet: #8f7ab6;
+  --color-pink: #dc5788;
+
+  --accent-orange: var(--color-orange);
+  --accent-green: var(--color-green);
+  --accent-blue: var(--color-blue);
+  --accent-yellow: var(--color-yellow);
+  --accent-violet: var(--color-violet);
+  --accent-pink: var(--color-pink);
+
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+  --text-display: clamp(2.5rem, 1.5rem + 6vw, 6rem);
+  --measure: 68ch;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 5rem;
+
+  --gutter: max(var(--space-4), env(safe-area-inset-left));
+}
